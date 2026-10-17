@@ -1,0 +1,18 @@
+```gitignore
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+**/dist/
+
+# Environment variables and secrets
+.env
+.env.*
+**/.env
+**/.env.*
+!**/.env.example
+
+# Vercel
+.vercel/
+```
